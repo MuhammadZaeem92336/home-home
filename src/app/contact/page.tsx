@@ -8,7 +8,7 @@ const Page = () => {
         <Image
           className="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto"
           src="/call-logo.jpg"
-          alt="Sarah Dayan"
+          alt="Contact"
           width="384"
           height="512"
         />
