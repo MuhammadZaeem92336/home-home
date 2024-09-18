@@ -2,11 +2,11 @@ import React from "react"
 import Link from "next/link"
 const Footer = () => {
     return (
-        <div className="text-emerald-900 flex gap-9 p-10 bg-indigo-200">
-            <Link href="\">┃𝑯𝒐𝒎𝒆┃</Link>
-            <Link href="about">┃𝑨𝒃𝒐𝒖𝒕 𝑯𝒐𝒎𝒆┃</Link>
-            <Link href="contact">┃𝑨𝒃𝒐𝒖𝒕 𝑪𝒐𝒏𝒕𝒂𝒄𝒕┃</Link>
-            <Link href="address">┃𝑨𝒃𝒐𝒖𝒕 𝑯𝒐𝒎𝒆 𝑨𝒅𝒅𝒓𝒆𝒔𝒔┃</Link>
+        <div className="fixed bottom-0 flex gap-20 fix-bottom p-10 bg-indigo-200 w-full justify-center font-serif">
+            <Link href="\"><i><b>Home</b></i></Link>
+            <Link href="about"><i><b>About Home</b></i></Link>
+            <Link href="contact"><i><b>About Contact</b></i></Link>
+            <Link href="address"><i><b>About Address</b></i></Link>
         </div>
     )
 }

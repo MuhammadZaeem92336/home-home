@@ -24,7 +24,7 @@ const Page = () => {
             <div className="text-red-500 dark:text-sky-400">
               MY HOUSE
             </div>
-            <div className="text-slate-700 dark:text-slate-500">
+            <div className="text-slate-700 md:text-lg dark:text-slate-500">
               Feel Comfortable
             </div>
           </figcaption>

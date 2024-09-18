@@ -6,11 +6,7 @@ const Page = () => {
     <div>
       <figure className="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
         <Image
-          className="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto"
-          src="/call-logo.jpg"
-          alt="Contact"
-          width="384"
-          height="512"
+          className="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto"src="/call-logo.jpg"alt="Contact"width="384"height="512"
         />
         <div className="text-lg font-medium md:text-left">
           <blockquote>

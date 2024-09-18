@@ -1,5 +1,5 @@
-import React from 'react'
-import Image from 'next/image'
+import React from 'react';
+import Image from 'next/image';
 
 const Page = () => {
   return (
@@ -21,11 +21,11 @@ const Page = () => {
             </p>
           </blockquote>
           <figcaption className="font-medium">
-            <div className="text-red-500 dark:text-sky-400">
-             My Adress
+            <div className="md:text-lg text-red-500 dark:text-sky-400">
+              My Address
             </div>
             <div className="text-slate-700 dark:text-slate-500">
-              Babar Colony St.3 Ho.121 RYK
+              Babar Colony Ho.121 St.3 RYK
             </div>
           </figcaption>
         </div>
@@ -35,4 +35,3 @@ const Page = () => {
 };
 
 export default Page;
-
